@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: fabricioveronez/trader-web:v2
+        image: itdaniloamaral/trader-web:latest
         ports:
         - containerPort: 3000
         env:
